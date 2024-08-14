@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.juego {
+    margin-bottom: 20px;
+}
+button {
+    width: 20%;
+    height: 100px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+}
+.piedra{
+    background-color: rgb(160, 0, 0);
+    color: white;
+}
+.papel{
+    background-color: rgb(2, 50, 139);
+    color: white;
+}
+.tijera{
+    background-color: rgb(0, 199, 17);
+    color: white;
+}
+.piedra:hover{
+    background-color: brown;
+    color: white;
+}
+.papel:hover{
+    background-color: rgb(0, 76, 218);
+    color: white;  
+}
+.tijera:hover{
+    background-color: rgb(0, 112, 9);
+    color: white;
+}
+.result {
+
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
